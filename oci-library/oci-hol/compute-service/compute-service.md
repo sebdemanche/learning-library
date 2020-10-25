@@ -90,7 +90,7 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
     **Note:** For Oracle Linux VMs, the default username is **opc**
 
     ```
-    <copy>ssh -i <private_ssh_key> opc@<public_ip_address></copy>
+    <clipboard-copy>ssh -i <private_ssh_key> opc@<public_ip_address></clipboard-copy>
     ```
 
 <if type="freetier">    
