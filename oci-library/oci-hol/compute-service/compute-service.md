@@ -47,7 +47,7 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 <if type="livelabs">
 4. Click *Change Shape* to choose a VM shape.
 
-    ![](images/create-compute-livelabs-3.png)
+   ![](images/create-compute-livelabs-3.png)
 
 5. Select *Intel Skylake*, then select **VM.Standard.2.1** as the shape, and click **Select Shape**.
 
