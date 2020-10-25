@@ -58,9 +58,11 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 3. In the Networks section, most of the defaults are perfect for our purposes. However, you will need to scroll down to the Configure Networking area of the page and select the *Assign a public IP address* option.
 
     <if type="freetier">
+          
     ![Create step 2](images/Create2.png " ")</if>
 
     <if type="livelabs">
+    
     ![](images/create-compute-livelabs-4b.png)</if>
 
     ***NOTE:*** *You need a public IP address so that you can SSH into the running instance later in this lab.*
@@ -74,9 +76,11 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 5. Once the instance state changes to Running, you can SSH to the Public IP address of the instance. The Public IP address is noted under *Instance Access*.
 
     <if type="freetier">
+ 
     ![Create step 3](images/Create3.png " ")</if>
 
     <if type="livelabs">
+    
     ![](images/compute-livelabs-running/png)</if>
 
 ## **STEP 2**: Connect to the instance <if type="freetier">and install Apache HTTP Server</if>
