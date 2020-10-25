@@ -41,6 +41,7 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
     </if>
     <if type="livelabs">
     ![](images/create-compute-livelabs-2.png)
+  
     </if>
 
 <if type="livelabs">
