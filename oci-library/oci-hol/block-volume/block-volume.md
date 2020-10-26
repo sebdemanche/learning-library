@@ -84,9 +84,11 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
      - Click **Attach**
 
    <if type="freetier">
-   ![](images/Attached2.png " ")</if>
+   
+ ![](images/Attached2.png " ")</if>
    <if type="livelabs">
-   ![](images/livelabs-attach-block.png)</if>
+   
+ ![](images/livelabs-attach-block.png)</if>
 
 5. Once the volume is attached, you can click on the ellipsis and then click **iSCSI Command and Information link.**
 
