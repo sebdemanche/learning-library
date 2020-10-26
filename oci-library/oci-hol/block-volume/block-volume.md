@@ -68,9 +68,11 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 2. Go to the Compute instance Menu, and navigate to the VM instance you created before and click on the **Attached Block Volumes** link.
 
     <if type="freetier">
-    ![](images/attached1.png " ")</if>
+  
+  ![](images/attached1.png " ")</if>
     <if type="livelabs">
-    ![](images/livelabs-attach.png)</if>
+    
+  ![](images/livelabs-attach.png)</if>
 
 3. Click on the **Attach Block Volume** button.
 
