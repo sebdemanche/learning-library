@@ -31,9 +31,11 @@ The purpose of this lab is to give you an overview of the Object Service and an 
 3. Click **Create Bucket**.
 
   <if type="freetier">
-  ![](images/OBJECT-STORAGE012.PNG " ")</if>
+ 
+![](images/OBJECT-STORAGE012.PNG " ")</if>
   <if type="livelabs">
-  ![](images/livelabs-create-bucket-1.png)</if>
+
+![](images/livelabs-create-bucket-1.png)</if>
   **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
 4. Fill out the dialog box:
