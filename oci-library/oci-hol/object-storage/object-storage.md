@@ -44,9 +44,11 @@ The purpose of this lab is to give you an overview of the Object Service and an 
 5.  Click **Create Bucket**
 
   <if type="freetier">
-  ![](images/OBJECT-STORAGE013.PNG " ")</if>
+ 
+![](images/OBJECT-STORAGE013.PNG " ")</if>
   <if type="livelabs">
-  ![](images/livelabs-create-bucket-2.png)</if>
+  
+![](images/livelabs-create-bucket-2.png)</if>
 
 ## **STEP 2**: Upload Object and create pre authenticated link
 
@@ -55,20 +57,25 @@ The purpose of this lab is to give you an overview of the Object Service and an 
 3. Switch to OCI window and click the Bucket Name.
 
   <if type="freetier">
-  ![](images/OBJECT-STORAGE014.PNG " ")</if>
+  
+![](images/OBJECT-STORAGE014.PNG " ")</if>
   <if type="livelabs">
-  ![](images/livelabs-click-bucket-name.png)</if>
+
+![](images/livelabs-click-bucket-name.png)</if>
 
 4. Bucket detail window should be visible. Click **Upload**
 
   <if type="freetier">
-  ![](images/OBJECT-STORAGE007.PNG " ")</if>
+ 
+![](images/OBJECT-STORAGE007.PNG " ")</if>
   <if type="livelabs">
-  ![](images/livelabs-upload-object.png)</if>
+
+![](images/livelabs-upload-object.png)</if>
 
 5. Click on *Upload* and then browse to where you created your *sample-file.txt* moments ago.
 
-  ![](images/upload-sample-file.png)
+ 
+![](images/upload-sample-file.png)
 
 6. Select the file, then click **Upload** in the Dialog box, then click **Close**.
 
