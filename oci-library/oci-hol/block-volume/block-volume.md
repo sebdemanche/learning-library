@@ -47,14 +47,20 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 3. Leave the encryption and tags options as their default values and click on **Create Block Volume**. The volume will be ready to attach once its icon no longer lists it as **PROVISIONING** in the volume list.
 
    <if type="freetier">
-   ![](images/Create1.png " ")
-   ![](images/image002.png " ")
-   ![](images/image003.png " ")
+   
+ ![](images/Create1.png " ")
+ 
+![](images/image002.png " ")
+
+![](images/image003.png " ")
    </if>
    <if type="livelabs">
-   ![](images/create-livelabs.png)
-   ![](images/create-livelabs-prov.png)
-   ![](images/create-livelabs-avail.png)
+
+![](images/create-livelabs.png)
+
+![](images/create-livelabs-prov.png)
+
+![](images/create-livelabs-avail.png)
    </if>
 
 ## **STEP 2**: Attaching a Block Volume to an instance
