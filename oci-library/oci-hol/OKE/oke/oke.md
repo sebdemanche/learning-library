@@ -73,8 +73,8 @@ OCI Command Line comes preinstalled in Oracle Cloud Shell.
 
 ## **Step 3:** Download get-kubeconfig.sh file and Initialize your environment
 
-1. Switch to OCI console window and navigate to your cluster. In Cluster detail window, scroll down and click **Quick Start**, under **Resources**.
-Follow the steps under the **Quick Start** Section.
+1. Switch to OCI console window and navigate to your cluster. In Cluster detail window,  **Access Cluster**.
+Follow the steps under the **Cloud Shell** Section.
     ![](./../OKE/images/OKE_S4P1.PNG " ")
 
 2. The **Quick Start** directions will direct you to copy and execute the following commands depicted below in your local terminal.
