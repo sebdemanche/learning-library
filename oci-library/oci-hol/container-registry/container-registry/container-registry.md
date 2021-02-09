@@ -139,13 +139,24 @@ Oracle Cloud Infrastructure Registry is an Oracle-managed registry that enables 
 
      ![](images/OCIR_HOL0035.PNG " ")
 
-9.  Add a repo:
+9.a  Add a repo:
 
     ```
     <copy>
     sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     </copy>
     ```
+
+9.b Since late 2020 the Docker repo for centos 7 has been modified, hence we need to update it. Edit the repo file:
+
+    ```
+    <copy>
+    sudo vi /etc/yum.repos.d/docker-ce.repo
+    </copy>
+    ```
+9.c Using the arrows navigate to docker-ce-stable and after pressing the 'i' key change the baseurl to https://download.docker.com/linux/centos/7/$basearch/stable
+
+9.d Once you modified the url save the file by pressing the Esc key, typing ** :wq! and then hitting Enter 
 
 10. Enter command:
 
