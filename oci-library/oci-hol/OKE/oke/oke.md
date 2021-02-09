@@ -36,7 +36,7 @@ Estimated time: 1 hour
         ![](./../OKE/images/OKE_S1P1.PNG " ")
 
 2. Under **List Scope**, select the compartment in which you would like to create a cluster.
-        ![](./../OKE/images/OKE_S1P2.PNG " ")
+        ![](../images/OKE_S1P2.PNG " ")
 
 3. Click **Create Cluster**. Choose **Quick Create** and click **Launch Workflow**.
 
