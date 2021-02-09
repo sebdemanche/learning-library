@@ -45,9 +45,9 @@ Estimated time: 1 hour
       - NAME: Provide a name (oke-cluster in this example)
       - COMPARTMENT: Choose your compartment
       - CHOOSE VISIBILITY TYPE: Public
-      - SHAPE: Choose a VM shape
+      - SHAPE: Choose a VM shape (e.g. VM.Standard.B1.1)
       - NUMBER OF NODES: 1
-      - KUBERNETES DASHBOARD ENABLED: Make sure flag is checked
+      
 
 5. Click **Next** and Click "**Create Cluster**".
 
