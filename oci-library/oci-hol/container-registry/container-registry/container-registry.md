@@ -154,9 +154,10 @@ Oracle Cloud Infrastructure Registry is an Oracle-managed registry that enables 
     sudo vi /etc/yum.repos.d/docker-ce.repo
     </copy>
     ```
-9.c Using the arrows navigate to docker-ce-stable and after pressing the 'i' key change the baseurl to https://download.docker.com/linux/centos/7/$basearch/stable
+9.c Using the arrows navigate to docker-ce-stable and after pressing the 'i' key change the baseurl to
+https://download.docker.com/linux/centos/7/$basearch/stable
 
-9.d Once you modified the url save the file by pressing the Esc key, typing ** :wq! and then hitting Enter 
+9.d Once you modified the url save the file by pressing the Esc key, typing :wq! and then hitting Enter 
 
 10. Enter command:
 
