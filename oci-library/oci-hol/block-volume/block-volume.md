@@ -102,7 +102,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
      ```
      ```
      # <copy>sudo mkfs -t ext4 /dev/oracleoci/oraclevdb</copy>
-     Press y when prompted
+     Press Enter when prompted
      ```
      ```
      # <copy>sudo mkdir /mnt/disk1</copy>
