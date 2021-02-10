@@ -253,7 +253,11 @@ begin
     table_name =>'CHANNELS',
     credential_name =>'OBJ_STORE_CRED',
     file_uri_list =>'<your URI>',
-    format => json_object('ignoremissingcolumns' value 'true', 'removequotes' value 'true')
+    format => json_object('type' value 'csv',  
+ 
+                 'skipheaders' value '1',
+ 
+                 'dateformat' value 'mm/dd/yy')
  );
 end;
 /
