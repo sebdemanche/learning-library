@@ -87,12 +87,9 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 5. Once the volume is attached, you can click on the ellipsis and then click **iSCSI Command and Information link.**
 
-    <if type="freetier">
     
-  ![](images/image006.png " ")</if>
-    <if type="livelabs">
   
-![](images/livelabs-iscsi-link.png)</if>
+![](images/livelabs-iscsi-link.png)
 
 6. Connect to the instance through SSH and **run the iSCSI ATTACH COMMANDS**.Click on **COPY** to copy all attach commands run all these commands by pasting it in the terminal:
 
