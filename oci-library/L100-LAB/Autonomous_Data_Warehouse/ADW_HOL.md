@@ -36,13 +36,13 @@ Oracle Autonomous Data Warehouse Cloud provides an easy-to-use, fully autonomous
 
 ## Practice 1: Download channel text file and install SQL Developer Tool
 
-**1.** Download a zip file from this link: [http://bit.ly/2yOzzVE](http://bit.ly/2DRpVFR) and save it to your desktop.
+**1.** Download a zip file from this link: [https://tinyurl.com/jm4sbgto](https://tinyurl.com/jm4sbgto) and save it to your desktop.
 
 **2.** Unzip the file and you will see a channel.txt file
 
 > **Note:**  This file will be loaded into Object Storage and later used to load data into the CHANNELS table.
 
-**3.** Download SQL Developer Tool from this link: [https://bit.ly/2OHcBcZ](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) and install on your local computer.
+**3.** Download SQL Developer Tool from this link: [https://tinyurl.com/u7haa4ql](https://tinyurl.com/u7haa4ql) and install on your local computer.
 
 ## Practice 2: Sign in to OCI Console
 
