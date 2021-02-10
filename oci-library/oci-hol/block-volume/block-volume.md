@@ -24,12 +24,9 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 2. In Block Volume service, click on **Create Block Volume** and provide the following details:
 
-    <if type="freetier">
+    
      - **Name:** BV-DEMO
-     - **Compartment:** Demo</if>
-     <if type="livelabs">
-     - **Name:** username-BV
-     - **Compartment:** username-compartment</if>
+     - **Compartment:** Demo
      - **Availability Domain:** It must be the same as the AD you choose for your instance.
      - **Size**: Please choose **50 GB**.
      - **Backup Policy**: **Gold**
