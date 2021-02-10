@@ -129,7 +129,7 @@ Oracle Cloud Infrastructure Registry is an Oracle-managed registry that enables 
 
 ## **STEP 3**: Push images to the registry
 
-1. Next install Docker:
+8. Next install Docker:
 
     ```
     <copy>
