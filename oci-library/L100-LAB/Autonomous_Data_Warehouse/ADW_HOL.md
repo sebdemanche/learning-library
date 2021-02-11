@@ -240,10 +240,10 @@ You should see an output of **Table CHANNELS created** if there are no execution
 ![]( img/createTable1.png)
 
 **3.** Now lets load data into the CHANNELS table using the channels.txt file. The first thing you will need is a file URI to the *channels.txt* object you created earlier. To find this, use a text editor and create the URI using the following format:
-> https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your tenanacy name**/**your bucket name**/channels.txt
+> https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/channels.txt
 
 For example:
-> https://swiftobjectstorage.phoenix-1.oraclecloud.com/v1/ocidemo2/ADW-Bucket/channels.txt
+> https://swiftobjectstorage.phoenix-1.oraclecloud.com/v1/reghwsirm/ADW-Bucket/channels.txt
 
 **4.** Back in SQL Developer, in the ADWTEST-OCITEST connction page copy and paste in the command shown below. Be sure to substitue your URL where shown.
 
