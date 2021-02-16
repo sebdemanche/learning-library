@@ -46,16 +46,12 @@ Oracle Autonomous Data Warehouse Cloud provides an easy-to-use, fully autonomous
 
 ## Practice 2: Sign in to OCI Console
 
-**1.** Open a supported browser and go to the Console URL. For example, [https://cloud.oracle.com](https://cloud.oracle.com). Click on the profile icon at the top and then click on the *Sign in to Cloud* link.
-![](img/login1.png)
+**1.** Open a supported browser and go to the Console URL. https://console.eu-frankfurt-1.oraclecloud.com/
 
-**2.** Enter your tenant name: *You should have received one when you registered for your trial* and click **Next**
-
- ![](img/login2.png)
+**2.** Enter your tenant name: emeaccoe and click **Next**
 
 **3.** Enter your user name and password and click on **Sign In**
 
- ![](img/image002.png)
 
 When you sign in to the Console, the home page is displayed.
 
@@ -126,7 +122,7 @@ To load data from files in the cloud into your Autonomous DW Cloud database, use
 **5.** Click on the *ADW-Bucket* link to see its details page.
 ![]( img/clickBucketName.png)
 
-**6.** Upload the channels.txt file to the *ADW_Bucket*
+**6.** Upload the century_names_new.txt file to the *ADW_Bucket*
 ![]( img/upload1.png)
 
 ![]( img/upload2.png)
