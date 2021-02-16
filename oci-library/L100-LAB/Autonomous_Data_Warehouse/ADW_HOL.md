@@ -118,9 +118,12 @@ To load data from files in the cloud into your Autonomous DW Cloud database, use
 	
 **4.** Click **Create Bucket** 
 
-**5.** Click on the *ADW_Bucket* link to see its details page.
+**5.** Click on **Edit Visibility** and choose **Public**
 
-**6.** Upload the century_names_new.txt file to the *ADW_Bucket*
+**6.** Click on the *ADW_Bucket* link to see its details page.
+
+**7.** Upload the century_names_new.txt file to the *ADW_Bucket*
+
 
 ## Practice 6: Creating an Auth token for OCI user
 An Auth token is an Oracle-generated token that you can use to authenticate with third-party APIs. For example, use an auth token to authenticate with a Swift client when using Recovery Manager (RMAN) to back up an Oracle Database System (DB System) database to Object Storage. Lets start the process of creating an Auth token:
