@@ -249,9 +249,9 @@ dbms_cloud.copy_data(
 
 table_name =>'CHANNELS',
 
-credential_name =>'OCI_CRED_NAME',
+credential_name =>'OBJ_STORE_CRED',
 
-file_uri_list =>'https://swiftobjectstorage.../century_names_new.txt',format => json_object('delimiter' value ',', 'trimspaces' value 'lrtrim')
+file_uri_list =>'https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/century_names_new.txt',format => json_object('delimiter' value ',', 'trimspaces' value 'lrtrim')
 
 );
 
