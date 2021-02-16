@@ -222,13 +222,13 @@ In this portion of the lab you will use SQL Developer to create the CHANNELS tab
 **2.** Execute the following SQL script:
 
 ```
-CREATE TABLE ocitest.channels (
-    channel_id                  NUMBER          NOT NULL,
-    channel_desc                VARCHAR2(20)    NOT NULL,
-    channel_class               VARCHAR2(20)    NOT NULL,
-    channel_class_id            NUMBER          NOT NULL,
-    channel_total               VARCHAR2(13)    NOT NULL,
-    channel_total_id            NUMBER          NOT NULL);
+CREATE TABLE CHANNELS (
+
+NAME VARCHAR2(20) NOT NULL ,
+
+gender VARCHAR2(20) NOT NULL ,
+
+NAME_total NUMBER NOT NULL );
 ```
 
 You should see an output of **Table CHANNELS created** if there are no execution errors or typos in the script.
