@@ -249,18 +249,18 @@ For example:
 
 ``` 
 begin
- dbms_cloud.copy_data(
-    table_name =>'CHANNELS',
-    credential_name =>'OBJ_STORE_CRED',
-    file_uri_list =>'<your URI>',
-    format => json_object('type' value 'csv',  
- 
-                 'skipheaders' value '1',
- 
-                 'dateformat' value 'mm/dd/yy')
- );
+
+dbms_cloud.copy_data(
+
+table_name =>'CHANNELS',
+
+credential_name =>'OCI_CRED_NAME',
+
+file_uri_list =>'https://swiftobjectstorage.../century_names_new.txt',format => json_object('delimiter' value ',', 'trimspaces' value 'lrtrim')
+
+);
+
 end;
-/
 ```
 Press the **Run Script** buton when ready.
 ![]( img/copyData1.png)
