@@ -119,8 +119,7 @@ To load data from files in the cloud into your Autonomous DW Cloud database, use
 **4.** Click **Create Bucket** 
 ![]( img/createBucket.png)
 
-**5.** Click on the *ADW-Bucket* link to see its details page.
-![]( img/clickBucketName.png)
+**5.** Click on the *ADW_Bucket* link to see its details page.
 
 **6.** Upload the century_names_new.txt file to the *ADW_Bucket*
 ![]( img/upload1.png)
