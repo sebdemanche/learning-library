@@ -238,7 +238,7 @@ You should see an output of **Table CHANNELS created** if there are no execution
 > https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/century_names_new.txt
 
 For example:
-> https://swiftobjectstorage.eu-frankfurt-1.com/v1/reghwsirm/ADW-Bucket/century_names_new.txt
+> https://swiftobjectstorage.eu-frankfurt-1.oraclecloud.com/v1/frxplqvlwvmz/ADW_Bucket/century_names_new.txt
 
 **4.** Back in SQL Developer, in the ADWTEST-OCITEST connction page copy and paste in the command shown below. Be sure to substitue your URL where shown.
 
