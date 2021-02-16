@@ -48,7 +48,7 @@ Oracle Autonomous Data Warehouse Cloud provides an easy-to-use, fully autonomous
 
 **1.** Open a supported browser and go to the Console URL. https://console.eu-frankfurt-1.oraclecloud.com/
 
-**2.** Enter your tenant name: emeaccoe and click **Next**
+**2.** Enter your tenant name: **emeaccoe** and click **Next**
 
 **3.** Enter your user name and password and click on **Sign In**
 
@@ -233,7 +233,6 @@ NAME_total NUMBER NOT NULL );
 
 You should see an output of **Table CHANNELS created** if there are no execution errors or typos in the script.
 
-![]( img/createTable1.png)
 
 **3.** Now lets load data into the CHANNELS table using the channels.txt file. The first thing you will need is a file URI to the *channels.txt* object you created earlier. To find this, use a text editor and create the URI using the following format:
 > https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/channels.txt
@@ -265,6 +264,7 @@ Press the **Run Script** buton when ready.
 
 ```
 select * from channels;
+order by name_total desc;
 ```
 
 You have successfully imported the channels.txt file from your on-premises to ADW!
