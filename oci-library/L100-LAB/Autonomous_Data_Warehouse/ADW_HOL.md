@@ -235,10 +235,10 @@ You should see an output of **Table CHANNELS created** if there are no execution
 
 
 **3.** Now lets load data into the CHANNELS table using the channels.txt file. The first thing you will need is a file URI to the *channels.txt* object you created earlier. To find this, use a text editor and create the URI using the following format:
-> https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/channels.txt
+> https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**your object namespace**/**your bucket name**/century_names_new.txt
 
 For example:
-> https://swiftobjectstorage.phoenix-1.oraclecloud.com/v1/reghwsirm/ADW-Bucket/channels.txt
+> https://swiftobjectstorage.eu-frankfurt-1.com/v1/reghwsirm/ADW-Bucket/century_names_new.txt
 
 **4.** Back in SQL Developer, in the ADWTEST-OCITEST connction page copy and paste in the command shown below. Be sure to substitue your URL where shown.
 
@@ -258,7 +258,6 @@ file_uri_list =>'https://swiftobjectstorage.../century_names_new.txt',format => 
 end;
 ```
 Press the **Run Script** buton when ready.
-![]( img/copyData1.png)
 
 **4.** Still using the SQL Developer tool, perform the following SQL query:
 
@@ -267,9 +266,7 @@ select * from channels;
 order by name_total desc;
 ```
 
-You have successfully imported the channels.txt file from your on-premises to ADW!
-
-![]( img/image028.png)
+You have successfully imported the century_names_new.txt file from your on-premises to ADW!
 
 **Please help us to improve this LAB by providing a feedback here: [https://www.surveymonkey.com/r/ADW-LAB](https://www.surveymonkey.com/r/ADW-LAB)
 
