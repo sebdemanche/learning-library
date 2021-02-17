@@ -60,14 +60,6 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 
 6. To connect to the instance, you can use `Terminal` if you are using MAC or `Gitbash` if you are using Windows. On your terminal or gitbash enter the following command:
 
-    **Note:** For Oracle Linux VMs, the default username is **opc**
-
-    ```shell
-    ssh opc@<public_ip_address>
-    ```
-
-    If you have a different path for your SSH key enter the following:
-
     ```
     ssh -i ~/.ssh/<ssh_key_name> opc@<public_ip_address>
     ```
