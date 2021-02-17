@@ -53,8 +53,6 @@ The following provides an overview of a simple Public Load Balancer:
    - Remove all the Ingress and Egress Rules of the *LB-Security-List* (there shouldn't be any).
    - Click *Create Security List* 
 
-    ![](media/image1.png)
-
 4. Create another Security List:
    - **Security List Name:** *Web-Security-List*
    - Click on **Additonal Ingress Rule** and enter:
