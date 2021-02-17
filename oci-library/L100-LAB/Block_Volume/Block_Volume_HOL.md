@@ -33,7 +33,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 2. In Block Volume service, click on **Create Block Volume** and provide the following details:
 
    - **Name:** BV-DEMO
-   - **Compartment:** Demo
+   - **Compartment:** workshops
    - **Availability Domain:** It must be the same as the AD you choose for your instance.
    - **Size**: Please choose **50 GB**. 
    - **Backup Policy**: **Gold**
@@ -88,11 +88,11 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 6. Once the disk is attached, you can run the following commands to format the disk and mount it.
      ```
-     # ls -l /dev/oracleoci/oraclevd*
-    # sudo mkfs -t ext4 /dev/oracleoci/oraclevdb
-     Press y when prompted
-    # sudo mkdir /mnt/disk1
-     # sudo mount /dev/oracleoci/oraclevdb /mnt/disk1
+    ls -l /dev/oracleoci/oraclevd*
+    sudo mkfs -t ext4 /dev/oracleoci/oraclevdb
+        Press y when prompted
+    sudo mkdir /mnt/disk1
+    sudo mount /dev/oracleoci/oraclevdb /mnt/disk1
     ```
     ![](media/image009.png)
 
