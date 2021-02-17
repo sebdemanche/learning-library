@@ -68,8 +68,8 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 
     If you have a different path for your SSH key enter the following:
 
-    ```shell
-    ssh -i <path_to_private_ssh_key> opc@<public_ip_address>
+    ```
+    ssh -i ~/.ssh/<ssh_key_name> opc@<public_ip_address>
     ```
 
 7. For this lab, we are going to install an Apache HTTP Webserver and try to connect to it over the public Internet. SSH into the Linux instance and run following commands:
