@@ -29,50 +29,7 @@ Be sure to review [Best Practices for Your Compute Instance](https://docs.cloud.
 ## Practice 1: Generate SSH Keys
 
 Generate SSH keys to be used later while launching an instance.
-
-### MAC/LINUX
-
-1. Generate ssh-keys for your machine if you don’t have one. As long as an id_rsa and id_rsa.pub key pair is present they can be reused. By default these are stored in ~/.ssh folder. Enter the following command if you are using MAC or Linux Desktop:
-
-    ```shell
-      ssh-keygen
-    ```
-
-2. Make sure permissions are restricted, sometimes ssh will fail if private keys have permissive permissions.
-
-    ```shell
-        chmod 0700 ~/.ssh  
-        chmod 0600 ~/.ssh/id_rsa  
-        chmod 0644 ~/.ssh/id_rsa.pub
-    ```
-
-### FOR WINDOWS
-
-1. Install git for windows. Download [Gitbash](https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe) and install.
-
-2. Open Git-bash:
-
-    ![Open GitBash](media/image1.png)
-
-3. Generate ssh-keys by running this command in Gitbash and hit enter for all steps:
-
-```shell
-ssh-keygen  
-Generating public/private rsa key pair.  
-Enter file in which to save the key
-(/c/Users/username/.ssh/id\_rsa):  
-Created directory '/c/Users/username/.ssh'.  
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:  
-Your identification has been saved in /c/Users/username/.ssh/id\_rsa.  
-Your public key has been saved in /c/Users/username/.ssh/id\_rsa.pub.  
-```
-
-**Note**: In Gitbash, C:\\Users\\username\\ is shown as /c/Users/username/
-
-**NOTE**
-These instructions will create a minimally secure ssh key for you (***and one well suited for this tutorial***). For production environments we recommend an SSH-2 RSA key with 4096 bits and a passphrase. For example:
-```ssh-keygen -t rsa -b 4096 -N "<myPassphrase>" -f ~/keys/id_rsa -C "This is my comment"```
+See the [tutorial](https://github.com/sebdemanche/learning-library/blob/master/common/labs/generate-ssh-key/generate-ssh-keys.md)
 
 ## Practice 2: Creating a Web Server on a Compute Instance
 
