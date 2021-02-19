@@ -61,8 +61,6 @@ The home page gives you quick links to the documentation and to Oracle Support.
 
 ## Practice 3: Create an Autonomous Data Warehouse
 
-> **Note**: Make sure you are on us-phoenix-1 region. You can see your region at the right up corner of the page.
-
 **1.** Click on **Menu** > **Autonomous Data Warehouse** 
 ![]( img/menu1.png)
 
