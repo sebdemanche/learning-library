@@ -200,7 +200,6 @@ begin
      password => '<your Auth Token>'  
   ) ;
 end;
-/
 ```
 
 ![]( img/createCredential1.png)
