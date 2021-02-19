@@ -55,8 +55,6 @@ Oracle Autonomous Data Warehouse Cloud provides an easy-to-use, fully autonomous
 
 When you sign in to the Console, the home page is displayed.
 
- ![]( img/image004.png)
-
 The home page gives you quick links to the documentation and to Oracle Support.
 
 ## Practice 3: Create an Autonomous Data Warehouse
